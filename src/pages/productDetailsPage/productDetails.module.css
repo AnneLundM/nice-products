@@ -1,0 +1,39 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #fff7f0;
+  padding: 2em;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  color: #000000;
+}
+
+.details {
+  width: 100%;
+  max-width: 800px;
+  margin-top: 1em;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+}
+
+.dimensions,
+.reviews,
+.description,
+.info {
+  margin: 1em;
+  padding: 1em;
+}
+
+.dimensions h3,
+.reviews h3,
+.description h3,
+.info h3 {
+  color: rgb(71, 134, 45);
+  margin-bottom: 0.5em;
+  border-bottom: 1px solid #ccc;
+}
+
+.review strong {
+  color: #000000;
+}
